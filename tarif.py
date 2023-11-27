@@ -42,4 +42,4 @@ def calculer_cout_et_heures_par_personne_projet_et_mois(nom_personne, nom_projet
                 date.month == mois and date.year == annee):
                 total_heures += int(ligne[2])
                 total_cout += float(ligne[3])
-    return total_heures, total_cout
+    return total_heures, round(total_cout, 2)
