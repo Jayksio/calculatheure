@@ -2,7 +2,7 @@ import csv
 from datetime import datetime
 
 # les taux horaires de l'équipe
-taux_horaires = {"Calypso": 16.48, "Alexandre": 11.52, "Pierre": 11.52, "Sophie": 11.52, "Jacques": 11.52, "Guillaume": 11.52}
+taux_horaires = {"Michel": 16.48, "Grégoire": 11.52, "Jeanne": 11.52, "Cerise": 11.52, "Anna": 11.52, "Ludovic": 11.52}
 
 def ajouter_donnees(nom, projet, heures):
     date_actuelle = datetime.now().strftime("%Y-%m-%d")  # format AAAA-MM-JJ, à modifier si besoin mais j'ai utilisé ce format pour faciliter le tri
